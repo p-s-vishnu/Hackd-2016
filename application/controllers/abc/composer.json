@@ -1,0 +1,22 @@
+{
+	  "name": "jwhennessey/phpinsight",
+    "type": "library",
+    "description": "Sentiment analysis tool for PHP",
+    "keywords": ["sentiment", "insight", "phpinsight"],
+    "homepage": "https://github.com/JWHennessey/phpInsight",
+    "license": "GPLv3 or later",
+    "version": "v2.0.2",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "James Hennessey"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {"PHPInsight": "lib/"}
+    }
+}
+

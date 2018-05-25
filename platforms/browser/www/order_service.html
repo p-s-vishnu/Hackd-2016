@@ -1,0 +1,87 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left"><a href="#" class="back link"><i class="fa fa-angle-left"></i><span>Back</span></a></div>
+        <div class="center sliding">Order</div>
+    </div>
+</div>
+<div class="pages">
+    <!-- Page, data-page contains page name-->
+    <div data-page="notification" class="page">
+        <!-- Scrollable page content-->
+        <div class="page-content">
+            <form action="#" id="addServiceForm2">
+                <div class="list-block">
+                    <ul>
+                        <li><a href="#" class="item-link smart-select">
+                            <select name="job" maxlength="3">
+                                <optgroup label="jobType" id="addService_jobType">
+                                </optgroup>
+                            </select>
+                            <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">Job Type</div>
+                                    <div class="item-after">Choose</div>
+                                </div>
+                            </div></a>
+                        </li>
+                        Location:
+                        <li>
+                            <a href="#" class="item-link smart-select">
+                                <select name="State" id="addService_state" onchange="addService_changeDistrict()">
+
+                                </select>
+                                <div class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">State</div>
+                                        <div class="item-after">Choose</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="item-link smart-select">
+                                <select name="District" id="addService_District" onchange="addService_changeTaluk()">
+
+                                </select>
+                                <div class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">District</div>
+                                        <div class="item-after">Choose</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="item-link smart-select">
+                                <select name="Taluk" multiple  id="addService_taluk">
+
+                                </select>
+                                <div class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Taluk</div>
+                                        <div class="item-after">Choose</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="button active" style="background: #e03636;padding:10px;height: 50px;" onclick="orderService()"><i class="fa fa-search"></i>Search</a>
+                        </li>
+                    </ul>
+                </div>
+                <input type="hidden" name="cookieCatch" value="" id="cookieCatch_add_service">
+            </form>
+                <div id="mySearchOrders">
+
+
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zahara HomeCare</title>
+
+  <link rel="stylesheet" href="Semantic-UI-master/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="Semantic-UI-master/dist/components/icon.css">
+  <script type="text/javascript" src="ajax_caller.js"></script>
+  <script type="text/javascript" src="loader.js"></script>
+  <script type="text/javascript" src=" index.js"></script>
+	<style type="text/css">
+    body {
+      background-color: #DADADA;
+    }
+    body > .grid {
+      height: 100%;
+    }
+    .image {
+      margin-top: -100px;
+    }
+    .column {
+      max-width: 450px;
+    }
+  </style>
+
+   <script src="Semantic-UI-master/examples/assets/library/jquery.min.js"></script>
+  <script src="Semantic-UI-master/dist/semantic.min.js"></script>
+</head>
+<body>
+	<div class="ui middle aligned center aligned grid">
+  		<div class="column">
+    <h2 class="ui red image header">
+      <img src="img/logo.png" class="image">
+      <div class="content">
+        SignUp
+      </div>
+    </h2>
+    <form class="ui large form">
+      <div class="ui stacked doubled segment">
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="user icon"></i>
+            <input type="text" name="username" placeholder="Name">
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="mail icon"></i>
+            <input type="email" name="email" placeholder="Email">
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="lock icon"></i>
+            <input type="password" name="password" placeholder="Password">
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="pin icon"></i>
+            <input type="pincode" name="text" placeholder="Pincode" onchange="chkpin()">
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="map icon"></i>
+            <input type="text" readonly="true" name="text" placeholder="State">
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="location arrow icon"></i>
+            <input type="text" readonly="true" name="text" placeholder="District">
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="marker icon"></i>
+            <input type="text" readonly="true" name="text" placeholder="Taluk">
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="mobile icon"></i>
+            <input type="number" name="phone" placeholder="Phone number">
+          </div>
+        </div>
+
+        <div class="ui fluid large red submit button">Confirm</div>
+
+      </div>
+
+      <div class="ui error message"></div>
+
+    </form>
+
+    <div class="ui message">
+      Already have an account? <a href="login.html">Login</a>
+    </div>
+  </div>
+</body>
+</html>
