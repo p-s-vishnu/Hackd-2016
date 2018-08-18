@@ -2,7 +2,7 @@ This repository contains starter files that were used to make Zahara, an app tha
 Zahara was developed as part of 24 hour Hackathon Hack'd 2016 conducted by Envestnet.
 
 *******************
-Code Igniter Release Information
+CodeIgniter Release Information
 *******************
 
 This repo contains in-development code for future releases. To download the
