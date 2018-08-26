@@ -1,5 +1,42 @@
+###################
+Zahara
+###################
+
 This repository contains starter files that were used to make Zahara, an app that acts as an enabler between patients and nurses. 
 Zahara was developed as part of 24 hour Hackathon Hack'd 2016 conducted by Envestnet.
+
+*******************
+Problem context
+*******************
+* India ranks 74 out of 91 in Global age watch index. Also it is currently ranked 4th in Elderly people population.
+* Hence there arises a need for a more efficient and organized nursing system.
+
+*******************
+Our solution
+*******************
+* We provide an authentic nursing agency or home nurse near them.
+* Centralized home nursing community 
+* Provides a cheaper rates for service with a wide variety of choices
+* The nurses are verified by screening process by which we authenticate the profile of the person, enhancing security of the users.
+* It is based on a Member- Entrepreneurs model, each nurse can start his/her own small group and employ them under the programme and function as an entrepreneur themselves.
+* Customer feedback & review system maintain the quality.
+
+*******************
+How Zahara works ?
+*******************
+
+![workflow](https://github.com/p-s-vishnu/Hackd-2016/blob/master/img/workflow.png)
+
+*******************
+Features and benefits
+*******************
+* Time Saving
+* Decrease in the number of parents being sent to old age home
+* Cheaper Fees 
+* Review System for maintaining quality of service 
+* Can be used by anyone to support anyone.
+
+--------------------
 
 *******************
 CodeIgniter Release Information
