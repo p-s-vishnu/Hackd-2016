@@ -25,7 +25,7 @@ Our solution
 How Zahara works ?
 *******************
 
-![workflow](https://github.com/p-s-vishnu/Hackd-2016/blob/master/img/workflow.png)
+.. image:: https://github.com/p-s-vishnu/Hackd-2016/blob/master/img/workflow.png 
 
 *******************
 Features and benefits
